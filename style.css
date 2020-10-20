@@ -167,13 +167,13 @@ a {
 }
 
 .header-section {
-    padding: 3rem 0 1.5rem;
+    padding: -1rem 0 1.5rem;
     background-color: #ffffff;
 }
 
 .logo img {
     max-width: 324px;
-    max-width: 100%;
+    max-width: 15%;
     margin: auto;
     text-align: center;
     display: block;
