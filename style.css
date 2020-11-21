@@ -159,6 +159,7 @@ a {
     content: "\f107";
     border: 0;
     font-family: 'FontAwesome';
+     color: #0000FF;
 }
 
 .navbar-toggleable-md .navbar-nav .nav-link {
