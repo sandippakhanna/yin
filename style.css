@@ -149,6 +149,7 @@ a {
     color: #121212;
 }
 
+
 .dropdown-toggle::after {
     display: inline-block;
     width: auto;
@@ -194,7 +195,7 @@ a {
 }
 
 .header .dropdown ul li {
-    border-bottom: 1px solid #0000FF;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .header .dropdown-item {
