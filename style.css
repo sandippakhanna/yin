@@ -159,7 +159,7 @@ a {
     content: "\f107";
     border: 0;
     font-family: 'FontAwesome';
-     color: #0000FF;
+    
 }
 
 .navbar-toggleable-md .navbar-nav .nav-link {
@@ -169,7 +169,7 @@ a {
 
 .header-section {
     padding: -1rem 0 1.5rem;
-    background-color: #ffffff;
+    background-color: ;
 }
 
 .logo img {
@@ -194,7 +194,7 @@ a {
 }
 
 .header .dropdown ul li {
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid #0000FF;
 }
 
 .header .dropdown-item {
