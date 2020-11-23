@@ -42,7 +42,7 @@ a:focus,
 .btn:focus,
 .navbar-inverse .navbar-toggler {
     color: #333 !important;
-    background-color: #fff;
+    background-color: black;
 }
 
 .blockquote {
