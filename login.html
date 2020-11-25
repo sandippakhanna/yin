@@ -44,31 +44,58 @@
 		</div>
 		<div class="card">
 			<div class="row">
-			<div class="col-md-9 ad_img">
-				<img src="images/login.jpg" alt="" height="500px">
-			</div>
-			<form action="" class="col-md-3">
-		
-				<div class="text-center">
-					<a href="index.html" class="navbar-brand">
-						<img src="images/hlogo.png" alt="logo" height="50px">
-					</a>
+				<div class="col-md-9 ad_img">
+					<img src="images/login.jpg" alt="" height="500px">
 				</div>
-				<div class="form-wrapper">
-					<input type="text" placeholder="Email Address" class="form-control" required>
-					<i class="zmdi zmdi-email align-middle"></i>
+				<div class="col-md-3">
+					<form action="">
+			
+						<div class="text-center">
+							<a href="index.html" class="navbar-brand">
+								<img src="images/hlogo.png" alt="logo" height="50px">
+							</a>
+						</div>
+						<div class="form-wrapper">
+							<input type="text" placeholder="Email Address" class="form-control" required>
+							<i class="zmdi zmdi-email align-middle"></i>
+						</div>
+						<div class="form-wrapper">
+							<input type="password" placeholder="Password" class="form-control" required>
+							<i class="zmdi zmdi-lock align-middle"></i>
+						</div>
+						<button>Login
+						</button>
+						
+						<div class="link-text">New here? <a href="signup.html">signup</a></div>
+					</form>
+					<!-- Button trigger modal -->
+					<button type="button" class="small-button" data-toggle="modal" data-target="#exampleModal">
+						Forgot password?
+					</button>
+					
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						<div class="modal-content">
+							<h6 class="modal-title" id="exampleModalLabel">Enter your email and we will send you a confirmation code</h6>
+							<div class="modal-body">
+							<form action="">
+								<input type="text" placeholder="enter your email">
+							</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="small-button">Send email</button>
+								<button type="button" class="small-button close" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+						</div>
+					</div>
 				</div>
-				<div class="form-wrapper">
-					<input type="password" placeholder="Password" class="form-control" required>
-					<i class="zmdi zmdi-lock align-middle"></i>
-				</div>
-				<button>Login
-				</button>
-				<div class="link-text">New here? <a href="signup.html">signup</a></div>
-			</form>
+			
 			</div>
 		</div>
 		
-		
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	</body>
 </html>
