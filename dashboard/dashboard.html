@@ -54,7 +54,7 @@
 	
 				<ul class="list-unstyled components">
 					<p>dashboard</p>
-					<li>
+					<li class="active">
 						<a href="dashboard.html">
 							<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
@@ -81,7 +81,7 @@
 							Pending posts
 						</a>
 					</li>
-					<li class="active">
+					<li>
 						<a href="profile.html">
 							<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
@@ -106,49 +106,51 @@
 						<img src="../images/hlogo.png" alt="logo" height="50px">
 					</a>
 				</div>
-
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light pt-1">
 					<div class="container-fluid">
-	
 						<button type="button" id="sidebarCollapse" class="navbar-btn">
 							<span></span>
 							<span></span>
 							<span></span>
 						</button>
+						<div>username</div>
 					</div>
-					<div>username</div>
-                </nav>
-                <div class="my-4">
-                    Current Profile Pic : <img src="/media/author_profile_pic/default.png" alt="" width="200px" height="200px"
-                        class="img-fluid">
-                </div>
-                <form action="" method="post" enctype="multipart/form-data"><input type="hidden" name="csrfmiddlewaretoken" value="LcijAPbLTyf1W8UKWS6cLjaivWTJN8OPHWA8E7LX07rA5e3lGofKp5invBr2YInf">
-                    <div class="form-group">
-                        <label for="profilePic">Change Profile Picture</label><br>
-                        <input type="file" name="profilePic" id="profilePic">
-                    </div>
-            
-                    <div class="form-group">
-                        <label for="email">Change Email</label><br>
-                        <input type="email" name="email" value="" required="" id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Change Password</label><br>
-                        <input type="password" name="password" value="" placeholder="Enter new password" id="password">
-                    </div>
-            
-            
-                    <p><label for="id_description">Description:</label><br> <textarea name="description" cols="40" rows="10" required id="id_description">
-                    </textarea></p>
-                    <p><label for="id_facebook_URL">Facebook URL:</label><br> <input type="text" name="facebook_URL" maxlength="250" id="id_facebook_URL"></p>
-                    <p><label for="id_youtube_URL">Youtube URL:</label><br> <input type="text" name="youtube_URL" maxlength="250" id="id_youtube_URL"></p>
-                    <p><label for="id_pinterest_URL">Pinterest URL:</label><br> <input type="text" name="pinterest_URL" maxlength="250" id="id_pinterest_URL"></p>
-                    <p><label for="id_twitter_URL">Twitter URL:</label><br> <input type="text" name="twitter_URL" maxlength="250" id="id_twitter_URL"></p>
-                    <p><label for="id_flicker_URL">Flicker URL:</label><br> <input type="text" name="flicker_URL" maxlength="250" id="id_flicker_URL"></p>
-                    <p><label for="id_instagram_URL">Instagram URL:</label><br> <input type="text" name="instagram_URL" maxlength="250" id="id_instagram_URL"></p>
-                    <p><label for="id_personal_URL">Personal URL:</label><br> <input type="text" name="personal_URL" maxlength="250" id="id_personal_URL"></p>
-                    <button class="btn btn-primary" type="submit">Submit</button>
-                </form>
+					
+				</nav>
+				<table class="table responsive-table">
+					<thead">
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">Blog Title</th>
+							<th scope="col">Date</th>
+							<th scope="col">Link</th>
+							<th scope="col">Views</th>
+							<th scope="col">Edit</th>
+							<th scope="col">Delete</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td scope="col">#</td>
+							<td scope="col">Blog Title</td>
+							<td scope="col">Date</td>
+							<td scope="col">Link</td>
+							<td scope="col">Views</td>
+							<td scope="col">Edit</td>
+							<td scope="col">Delete</td>
+						</tr>
+						<tr>
+							<td scope="col">#</td>
+							<td scope="col">Blog Title</td>
+							<td scope="col">Date</td>
+							<td scope="col">Link</td>
+							<td scope="col">Views</td>
+							<td scope="col">Edit</td>
+							<td scope="col">Delete</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 
